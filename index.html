@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Webshocker - Hello World</title>
+    <style>
+    body {
+	  background-color:lightblue;
+	}
+
+	.content {
+	  font-size:40px;
+	  line-height:40px;
+	  height:40px;
+	  margin: 10% auto 0 auto;
+	  width:350px;
+	}
+
+	.visible {
+	  float:left;
+	  font-weight:600;
+	  overflow:hidden;
+	  height:40px;   
+	}
+
+	p {
+	  display:inline;
+	  float:left;
+	  margin:0;
+	}
+
+	ul {
+	  padding-left:100px;
+	  list-style:none;
+	  animation:5s linear 0s normal none infinite change;
+	  -webkit-animation:5s linear 0s normal none infinite change;
+	  -moz-animation:5s linear 0s normal none infinite change;
+	  -o-animation:5s linear 0s normal none infinite change;
+	}
+
+	ul li {
+	  line-height:40px;
+	  margin:0;
+	}
+
+	@-webkit-keyframes change {
+	  0%   {margin-top:0;}
+	  25%  {margin-top:0;}
+	  50%  {margin-top:-40px;}
+	  75%  {margin-top:-40px;}
+	  100% {margin-top:0;}
+	}
+
+	@keyframes change {
+	  0%   {margin-top:0;}
+	  25%  {margin-top:0;}
+	  50%  {margin-top:-40px;}
+	  75%  {margin-top:-40px;}
+	  100% {margin-top:0;}
+	}
+    </style>
+  </head>
+  <body>
+    <div class='content'>
+	  <div class='visible'>
+	    <p>
+	      Hello
+	    </p>
+	    <ul>
+	      <li>world !</li>
+	      <li>Webshocker !</li>
+	    </ul>
+	  </div>
+	</div>
+  </body>
+</html>
