@@ -1,0 +1,127 @@
+@font-face {
+    font-family: helvetica;
+    src: url(../files/HelveticaNeueLTStd-Roman.otf);
+}
+html{height:100%;}
+body{
+	background-color:black;
+	color:white;
+	font-family: helvetica;
+	margin:0;
+	height:100%;
+	background-image: url("../images/salamander.jpg");
+	background-repeat: no-repeat;
+	background-position: 95% 60%; 
+	background-size: 30%;
+}
+.wrapper{
+	min-height: 100%;
+  position: relative;
+  padding:30px;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.Forma{
+	margin:60px 0;
+	border-top: 1px solid #3c3c3c;
+	border-bottom: 1px solid #3c3c3c;
+	width:50%;
+	font-family: arial;
+	padding:15px 0;
+}
+
+.Forma ul {
+	margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.Forma ul li{
+  margin: 0;
+  padding: 6px 0 9px 0;
+  float:left;
+  width:30%;
+}
+.Forma ul li.middle{
+	padding-left:5%;
+	padding-right:5%
+}
+.Forma ul li label {
+	font-size:.8em;
+}
+.Title{}
+.logo{
+	width:400px;
+	margin-bottom:27px;
+}
+.slogan{
+	text-transform:uppercase;
+	font-size:3em;
+	margin-bottom:25px;
+}
+.applyTxt{
+	font-size:1em;
+}
+
+
+footer{
+	position:absolute;
+  bottom:30px;
+  width:auto;
+}
+.copyright{
+	float:right;
+}
+
+
+label {
+	
+}
+.input{
+	background-color:#424242;
+  padding:10px;
+  border:none;
+  display:block;
+  width: 100%;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
+  transition: background-color 0.3s;
+}
+.input:focus{
+  background-color:#fff !important;
+}
+select option{
+	background-color:white;
+}
+
+
+
+
+.btn {
+  -webkit-border-radius: 2;
+  -moz-border-radius: 2;
+  border-radius: 2px;
+  font-family: 'PT Sans', sans-serif;
+  color: black;
+  background: #a6ce39;
+  text-decoration: none;
+  margin-top:16px;
+  width: 50%;
+  float: right;
+}
+
+.btn:hover {
+	background: #a6ce39;
+  background-image: -webkit-linear-gradient(top, #a6ce39, #799c1a);
+  background-image: -moz-linear-gradient(top, #a6ce39, #799c1a);
+  background-image: -ms-linear-gradient(top, #a6ce39, #799c1a);
+  background-image: -o-linear-gradient(top, #a6ce39, #799c1a);
+  background-image: linear-gradient(to bottom, #a6ce39, #799c1a);
+  cursor: pointer;
+}
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
